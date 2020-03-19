@@ -18,7 +18,7 @@ _Note : in order to keep this post relevant, I will try to update it as I includ
 
 ---- 
 
-### [SetApp](https://setapp.com) 💎
+### <a href="https://setapp.com" target="_blank">SetApp</a> 💎
 You can think of **SetApp** as the Netflix of Mac applications. It is not really a tool but a service that allows you to use a selection of cool and always up-to-date apps with a single subscription.
 
 The app selection is pretty nice and contains a lot of developer-oriented tools. This service can also be very convenient if you want to test a pricey app before buying a licence.
@@ -30,7 +30,7 @@ Some of the tools I will talk about in this post are part of the SetApp bundle.
 _Price : 9.99$ / month_  
 _Available on macOS_
 
-### [GoodTask](http://goodtaskapp.com) 📋
+### <a href="http://goodtaskapp.com" target="_blank">GoodTask</a> 📋
 Unless you have an extraordinary memory, chances are that you already use a todo list app. I personally use **GoodTask** : not only it provides the basic list management features but it also contains a few more convenient functions like tag management and smart lists.
 
 Another cool point : it synchronizes with the stock Apple Reminder and Calendar apps.
@@ -41,19 +41,19 @@ _Price : 19.99$ on the [Mac App Store](https://itunes.apple.com/app/id1143437985
 _(included in the SetApp subscription)_  
 _Available on macOS_
 
-### [mitmproxy](https://mitmproxy.org) 🔍
+### <a href="https://mitmproxy.org" target="_blank">mitmproxy</a> 🔍
 In this list, **mitmproxy** is probably my favorite tool, it is also certainly the less user-friendly. The purpose of this software is simple : allowing you to see all requests coming in and out of your device.
 
 You might need a tutorial to get started but once you get used to it, it’s hard to work without it. More than just seeing requests, it is possible to filter and even modify them using Python scripts.
 
 Since mitmproxy is a very powerful tool, I will write a dedicated post about some advanced usages.
 
-![mitmproxy](/assets/images/tools/mitmproxy.jpg)
+![mitmproxy](/assets/images/mitmproxy/mitmproxy.jpg)
 
 _Price : free_  
 _Available on macOS and Linux_
 
-### [Visual Studio Code](https://code.visualstudio.com/) 💾
+### <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> 💾
 You are probably already familiar with this one but still **Visual Studio Code** is very nice code editor. Better polished than Atom in my opinion, there is a lot to like with all its cool features and extensions.
 
 Even if the choice of building the app using Electron is perfectible, I did not notice big performance issues on my Macbook Air.
@@ -63,7 +63,7 @@ Even if the choice of building the app using Electron is perfectible, I did not 
 _Price : free_  
 _Available on macOS, Windows and Linux_
 
-### [ iTerm2](https://www.iterm2.com) 📺
+### <a href="https://www.iterm2.com" target="_blank">iTerm2</a> 📺
 Using the terminal can sometimes be a painful experience and iTerm2 is a nice tool to make it better. With useful features like split panes, search and history : it’s hard to go back to the classic Mac terminal once you tried this one.
 
 ![iTerm2](/assets/images/tools/iterm2.jpg)

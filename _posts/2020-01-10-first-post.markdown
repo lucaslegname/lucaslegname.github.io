@@ -6,9 +6,9 @@ categories: thoughts
 ---
 We all have to start somewhere, right ? So this is where _Bad Gateway_ starts. First, let me re-introduce myself : my name is Lucas and I’m a software engineer specialized in mobile apps development.
 
-I’m currently working for [ARTE](https://arte.tv), an European TV channel with an ambitious online offer available on desktop, mobile apps (iOS and Android) and smart TV (HbbTV, tvOS and Android TV).
+I’m currently working for <a href="https://arte.tv" target="_blank">ARTE</a>, an European TV channel with an ambitious online offer available on desktop, mobile apps (iOS and Android) and smart TV (HbbTV, tvOS and Android TV).
 
-Lately, I have red an article named [_Software disenchantment_](http://tonsky.me/blog/disenchantment/) : this excellent post summed up quite well _the disease that currently plagues software development_.
+Lately, I have red an article named <a href="http://tonsky.me/blog/disenchantment/" target="_blank">_Software disenchantment_</a> : this excellent post summed up quite well _the disease that currently plagues software development_.
 
 I mean : if you want to take the pride for good apps, you have to take the responsibility for bad ones. So let’s consider that we (_people developing softwares_) are all responsible for the bad choices and wrong trends that become popular and spread among development teams around the world.
 
