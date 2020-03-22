@@ -4,15 +4,13 @@ title:  "Favorite tools for organization and apps development"
 date:   2020-01-20 20:20:20 +0200
 categories: work
 ---
-Using the right tool for the right purpose can save your life. Or at least prevent you from wasting time (and that’s already a lot). Sometimes we are all too busy shipping new features to spend hours on the web looking for new softwares.
+Using the right tool for the right purpose is crucial. Sometimes we tend to forget it, especially when we are too busy shipping new features to spend time on the web looking for new softwares.
 
-But we should never underestimate the time we can save once we have the right method to _specify, validate or debug_ our applications. And the right method is often tied to the right tool.
+We should never underestimate the time we can save once we have the right method to _specify, validate or debug_ our applications.
 
-In my everyday work life I'm generally working on multiple projects at the same time so it's quite important to have helpers to organize my thoughts and to remind me about important topics. But I also need tools that allow me to analyze and debug mobile apps.
+In my everyday work life I'm generally working on multiple projects at the same time so it's quite important to have helpers to organize my thoughts and to remind me about important topics. But I also need tools that allow me to analyze and debug the apps I'm working on.
 
-For example, most apps now rely on APIs and a good use of them is a great source of optimization. But if you don’t write the code yourself, how can you tell that the developers you are working with used the right endpoint with the right parameters at the right place ?
-
-Fortunately, there are tools for that.
+Here are several softwares I use, I hope some of them can help you too.
 
 _Note : in order to keep this post relevant, I will try to update it as I include more tools in my everyday routine._
 
