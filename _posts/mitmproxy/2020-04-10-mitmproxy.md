@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "mitmproxy, a powerful alternative to Charles Proxy"
-date:   2020-03-17 20:20:20 +0200
+date:   2020-04-10 20:20:20 +0200
 categories: mitmproxy
 tags: [mitmproxy]
 excerpt_separator: <!--more-->
@@ -93,7 +93,7 @@ This is really simple when you need to inspect requests from an **iOS** or **And
 
 For network settings, just follow the sub-tutorial that best matches your target device : 
 
-- [setting a proxy on an iOS device]({% post_url mitmproxy/2020-03-17-setting-proxy-ios %})
+- [setting a proxy on an iOS device]({% post_url mitmproxy/2020-04-10-setting-proxy-ios %})
 
 ## Installing the self-signed certificate
 
@@ -105,7 +105,7 @@ The complexity of installing a self-signed certificate really depends on the nat
 
 To install the certificate, just follow the sub-tutorial that best matches your target device : 
 
-- [installing a self-signed certificate on an iOS device]({% post_url mitmproxy/2020-03-17-certificate-ios %})
+- [installing a self-signed certificate on an iOS device]({% post_url mitmproxy/2020-04-10-certificate-ios %})
 
 ![Certificate](/assets/images/mitmproxy/certificate.jpg)
 

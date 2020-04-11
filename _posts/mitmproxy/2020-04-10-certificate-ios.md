@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installing a self-signed certificate on an iOS device"
-date:   2020-03-17 20:20:21 +0200
+date:   2020-04-10 20:20:20 +0200
 categories: mitmproxy
 published: true
 exclude: true
@@ -42,4 +42,4 @@ Now, at the bottom of the list, hit **Certificate Trust Settings** and enable th
 
 That's it! Now the mitmproxy certificate is installed and enabled on your device : let's go back to mitmproxy tutorial and try catching a few requests.
 
-<a href="{% post_url mitmproxy/2020-03-17-mitmproxy %}#installing-the-self-signed-certificate">_< Back to the **mitmproxy** tutorial_</a>
+<a href="{% post_url mitmproxy/2020-04-10-mitmproxy %}#installing-the-self-signed-certificate">_< Back to the **mitmproxy** tutorial_</a>

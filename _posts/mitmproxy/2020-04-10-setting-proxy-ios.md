@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting a proxy on an iOS device"
-date:   2020-03-17 20:20:21 +0200
+date:   2020-04-10 20:20:20 +0200
 categories: mitmproxy
 published: true
 exclude: true
@@ -24,4 +24,4 @@ To get the local IP address of the computer serving as proxy, generally the easi
 
 ![MacOS network settings](/assets/images/mitmproxy/network-ip-macos.jpg)
 
-<a href="{% post_url mitmproxy/2020-03-17-mitmproxy %}#network-settings-on-the-target-device">_< Back to the **mitmproxy** tutorial_</a>
+<a href="{% post_url mitmproxy/2020-04-10-mitmproxy %}#network-settings-on-the-target-device">_< Back to the **mitmproxy** tutorial_</a>
