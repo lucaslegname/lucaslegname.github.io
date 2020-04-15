@@ -40,6 +40,6 @@ Now, at the bottom of the list, hit **Certificate Trust Settings** and enable th
 
 ![Certificate](/assets/images/mitmproxy/certificate-install-ios-03.png)
 
-That's it! Now the mitmproxy certificate is installed and enabled on your device : let's go back to mitmproxy tutorial and try catching a few requests.
+That's it! The mitmproxy certificate is now installed on your device : let's go back to the main tutorial and try catching a few requests.
 
 <a href="{% post_url mitmproxy/2020-04-10-mitmproxy %}#installing-the-self-signed-certificate">_< Back to the **mitmproxy** tutorial_</a>
