@@ -94,6 +94,7 @@ This is really simple when you need to inspect requests from an **iOS** or **And
 For network settings, just follow the sub-tutorial that best matches your target device : 
 
 - [setting a proxy on an iOS device]({% post_url mitmproxy/2020-04-10-setting-proxy-ios %})
+- [setting a proxy on an Android device]({% post_url mitmproxy/2020-04-10-setting-proxy-android %})
 
 ## Installing the self-signed certificate
 
@@ -106,6 +107,7 @@ The complexity of installing a self-signed certificate really depends on the nat
 To install the certificate, just follow the sub-tutorial that best matches your target device : 
 
 - [installing a self-signed certificate on an iOS device]({% post_url mitmproxy/2020-04-10-certificate-ios %})
+- [installing a self-signed certificate on an Android device]({% post_url mitmproxy/2020-04-10-certificate-android %})
 
 ![Certificate](/assets/images/mitmproxy/certificate.jpg)
 

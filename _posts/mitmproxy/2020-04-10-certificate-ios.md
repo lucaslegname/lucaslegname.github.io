@@ -20,7 +20,7 @@ If the network settings are properly set on your device, you should land on a pa
 
 ![Certificate](/assets/images/mitmproxy/certificate-install-ios-01.png)
 
-Hit the Apple logo in order to download the mitmproxy certificate. An alert should appear, saying that your about to download a configuration profile : hit **Allow**.
+Hit the Apple logo in order to download the mitmproxy certificate. An alert should appear, saying that you are about to download a configuration profile : hit **Allow**.
 
 Another alert will confirm that the profile has been downloaded and that you need to review it before installing it.
 
@@ -40,6 +40,6 @@ Now, at the bottom of the list, hit **Certificate Trust Settings** and enable th
 
 ![Certificate](/assets/images/mitmproxy/certificate-install-ios-03.png)
 
-That's it! Now the mitmproxy certificate is installed and enabled on your device : let's go back to mitmproxy tutorial and try catching a few requests.
+That's it! The mitmproxy certificate is now installed on your device : let's go back to the main tutorial and try catching a few requests.
 
 <a href="{% post_url mitmproxy/2020-04-10-mitmproxy %}#installing-the-self-signed-certificate">_< Back to the **mitmproxy** tutorial_</a>
