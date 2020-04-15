@@ -20,7 +20,7 @@ If the network settings are properly set on your device, you should land on a pa
 
 ![Certificate](/assets/images/mitmproxy/certificate-install-ios-01.png)
 
-Hit the Apple logo in order to download the mitmproxy certificate. An alert should appear, saying that your about to download a configuration profile : hit **Allow**.
+Hit the Apple logo in order to download the mitmproxy certificate. An alert should appear, saying that you are about to download a configuration profile : hit **Allow**.
 
 Another alert will confirm that the profile has been downloaded and that you need to review it before installing it.
 
