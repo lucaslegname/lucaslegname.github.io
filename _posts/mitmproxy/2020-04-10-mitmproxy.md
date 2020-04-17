@@ -95,6 +95,7 @@ For network settings, just follow the sub-tutorial that best matches your target
 
 - [setting a proxy on an iOS device]({% post_url mitmproxy/2020-04-10-setting-proxy-ios %})
 - [setting a proxy on an Android device]({% post_url mitmproxy/2020-04-10-setting-proxy-android %})
+- [setting a proxy on a tvOS device]({% post_url mitmproxy/2020-04-10-setting-proxy-tvos %})
 
 ## Installing the self-signed certificate
 
@@ -108,6 +109,7 @@ To install the certificate, just follow the sub-tutorial that best matches your 
 
 - [installing a self-signed certificate on an iOS device]({% post_url mitmproxy/2020-04-10-certificate-ios %})
 - [installing a self-signed certificate on an Android device]({% post_url mitmproxy/2020-04-10-certificate-android %})
+- [installing a self-signed certificate on a tvOS device]({% post_url mitmproxy/2020-04-10-certificate-tvos %})
 
 ![Certificate](/assets/images/mitmproxy/certificate.jpg)
 
