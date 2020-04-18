@@ -21,7 +21,7 @@ This is why it is so important to be able to retrace the data path from the app 
 - what is contained in the response provided by the API ?
 - what happens if the API response structure changes ?
 
-By the end of this tutorial you should be able to use **<a href="https://mitmproxy.org" target="_blank">mitmproxy</a>** to answer those questions. But you will see, there are many more cool things to do with this tool.
+By the end of this tutorial you should be able to use **<a href="https://mitmproxy.org" target="_blank">mitmproxy</a>** to answer those questions. But you will see, there are many more things to do with this amazing tool.
 
 ![How mitmproxy works](/assets/images/mitmproxy/how-mitmproxy-works.jpg)
 
@@ -74,7 +74,7 @@ And don't forget to execute `source ~/.bash_profile` after you edited the file.
 
 ## Let's run mitmproxy
 
-No matter how you decided to install it, you should now be able to start **mitmproxy** with the command : 
+No matter how you installed it, you should now be able to start **mitmproxy** with the command : 
 ```
 mitmproxy
 ```
@@ -91,10 +91,11 @@ Using the program this way is certainly easier but it means that you can change 
 
 This is really simple when you need to inspect requests from an **iOS** or **Android** device but gets more complicated with devices that do not provide advanced settings for network.
 
-For network settings, just follow the sub-tutorial that best matches your target device : 
+Depending on your target device, just follow the corresponding sub-tutorial : 
 
 - [setting a proxy on an iOS device]({% post_url mitmproxy/2020-04-10-setting-proxy-ios %})
 - [setting a proxy on an Android device]({% post_url mitmproxy/2020-04-10-setting-proxy-android %})
+- [setting a proxy on a tvOS device]({% post_url mitmproxy/2020-04-10-setting-proxy-tvos %})
 
 ## Installing the self-signed certificate
 
@@ -104,10 +105,11 @@ To intercept HTTPS requests, we need to set the certificate used by **mitmproxy*
 
 The complexity of installing a self-signed certificate really depends on the nature of the device you need to inspect. Basically, it goes from « _very simple_ » to « _not possible_ ».
 
-To install the certificate, just follow the sub-tutorial that best matches your target device : 
+Depending on your target device, just follow the corresponding sub-tutorial : 
 
 - [installing a self-signed certificate on an iOS device]({% post_url mitmproxy/2020-04-10-certificate-ios %})
 - [installing a self-signed certificate on an Android device]({% post_url mitmproxy/2020-04-10-certificate-android %})
+- [installing a self-signed certificate on a tvOS device]({% post_url mitmproxy/2020-04-10-certificate-tvos %})
 
 ![Certificate](/assets/images/mitmproxy/certificate.jpg)
 
