@@ -9,10 +9,6 @@ exclude: true
 
 _For the purpose of this tutorial, I used an Apple TV 4K running **tvOS 13**._
 
-The first thing to know when you want to install a certificate on an Apple TV is that there is no sub-menu in the **tvOS** settings allowing you to do so.
-
-Fortunately, it is possible to proceed downloading a certificate file directly from the tvOS device. I will show you how to do this.
-
 ## Locating the mitmproxy certificate
 
 Depending on how you installed mitmproxy on your computer, the certificate folder should be either `~/.mitmproxy` or the local folder you passed as parameter in the **Docker** command.
@@ -21,7 +17,7 @@ Once you found the folder, locate the `mitmproxy-ca-cert.cer` file among the mul
 
 ## Uploading the certificate
 
-We now need to send the certificate (the `mitmproxy-ca-cert.cer` file) to your Apple TV. To do so, we first need to host it somewhere.
+We now need to send the certificate to your Apple TV. To do so, we first need to host it somewhere.
 
 You can use <a href="http://dropbox.com" target="_blank">Dropbox</a> for example : send the file in the cloud and get the **download link**. You should get something looking like this : 
 
@@ -55,4 +51,4 @@ Here you should see your freshly added mitmproxy certificate. To trust it, just 
 
 That's it! The mitmproxy certificate is now installed on your device : let's go back to the main tutorial and try catching a few requests.
 
-<a href="{% post_url mitmproxy/2020-04-10-mitmproxy %}#network-settings-on-the-target-device">_< Back to the **mitmproxy** tutorial_</a>
+<a href="{% post_url mitmproxy/2020-04-10-mitmproxy %}#installing-the-self-signed-certificate">_< Back to the **mitmproxy** tutorial_</a>

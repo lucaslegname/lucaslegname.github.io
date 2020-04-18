@@ -13,11 +13,11 @@ The first thing to know when you want to set a proxy on an Apple TV is that ther
 
 Fortunately, it is possible to proceed using a configuration profile created with **Apple Configurator 2**. You can download this tool from the <a href="https://apps.apple.com/us/app/apple-configurator-2/id1037126344?mt=12" target="_blank">Appstore</a>.
 
-## Configuration profile creation
+## Creating the configuration profile
 
 Start **Apple Configurator** and create a new profile (**File** > **New Profile**). Select the **Wi-Fi** section on the left then hit **Configure**.
 
-Here enter the name of your network (SSID), the security type (WEP/WPA2/...) and the password of your wireless network.
+Enter the name of your network (SSID), the security type (WEP/WPA2/...) and the password of your wireless network.
 
 Then set the **Proxy Setup** to **Manual** and use the following values : 
 - Host name : _the local IP address of your computer running **mitmproxy**_
@@ -30,7 +30,7 @@ To get the local IP address of the computer serving as proxy, generally the easi
 
 ![MacOS network settings](/assets/images/mitmproxy/network-ip-macos.jpg)
 
-Save this new configuration profile somewhere : you should get a `.mobileconfig` file.
+Save this new configuration profile somewhere : the created file should have the `.mobileconfig` extension.
 
 ## Uploading the file
 
@@ -50,10 +50,10 @@ Go to **Settings** > **General** > **Privacy**, select **Share Apple TV Analytic
 
 ![Download profile](/assets/images/mitmproxy/network-settings-tvos-01.jpg)
 
-You should be in the **Profiles** hidden menu. From there, click on **Add Profile** and enter the url from your hosted configuration profile.
+You should get in the **Profiles** hidden menu. From there, click on **Add Profile** and enter the url from your hosted configuration profile.
 
 ![Download profile](/assets/images/mitmproxy/network-settings-tvos-02.jpg)
 
-Once you are done, hit **Done** and the profile should be added to your Apple TV.
+Once you are done, hit **Done** and the profile should be added to your Apple TV. You might need to reboot your device in order to get the profile applied.
 
 <a href="{% post_url mitmproxy/2020-04-10-mitmproxy %}#network-settings-on-the-target-device">_< Back to the **mitmproxy** tutorial_</a>
