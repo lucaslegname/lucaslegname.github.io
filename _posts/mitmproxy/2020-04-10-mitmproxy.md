@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "mitmproxy, a powerful alternative to Charles Proxy"
+title:  "How to inspect network traffic using mitmproxy"
 date:   2020-04-10 20:20:20 +0200
 categories: mitmproxy
 tags: [mitmproxy]
