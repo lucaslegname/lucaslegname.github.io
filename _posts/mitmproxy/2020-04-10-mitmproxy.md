@@ -137,72 +137,9 @@ If nothing appears and the target device seems to have no internet connection, h
 - are the **proxy settings** correctly set on the target device ?
 - have you enabled the **self-signed certificate** on the target device ?
 
-## A few basic tips
+## To go further
 
-The app starts on the "table view", that's where the requests appear. To navigate among requests, you can use the **up** and **down** keys. The **enter** key allows you to see details from any request.
+Now you should know everything you need to install **mitmproxy** and configure your target device. If you want to go further, have a look at the following posts : 
 
-The "request details view" is divided into three tabs (**Request**, **Response** and **Detail**), you can use the **tab** key to switch between tabs.
-
-Here are a few more helpful keys : 
-
-- wherever you are, use **q** to go the previous screen
-- the **escape** key allows you to cancel any ongoing modification
-- to open the <a href="https://docs.mitmproxy.org/stable/concepts-options/" target="_blank">options</a> view, use **O**
-- you can use **?** on any view to see global and view-specific keybindings
-
-![Keybindings](/assets/images/mitmproxy/keybindings.jpg)
-
-### Filter requests
-
-You will quickly notice that your phone or tablet constatly sends and receives a lot of data even when you are not actively using it. That is why filtering is necessary when you want to follow requests done for a specific purpose.
-
-**mitmproxy** allows you to filter requests <a href="https://docs.mitmproxy.org/stable/concepts-filters/" target="_blank">using regexes</a>. To change the filter, simply hit **f** when you are on the table view.
-
-To display **all requests from google.com** you must use : 
-
-```bash
-set view_filter=google\.com
-```
-
-To display **404 errors from google.com** you must use : 
-
-```bash
-set view_filter=google\.com ~c 404
-```
-
-### Keep your table clean
-
-Sometimes you need to compare two requests but those are lost among many others. In this case, you can use the following commands to reduce the number of requests in the table view : 
-
-- use **d** to remove a single request
-- use **z** to remove all requests
-
-### Ignore domains
-
-You might discover at some point that few apps use <a href="https://owasp.org/www-community/controls/Certificate_and_Public_Key_Pinning" target="_blank">certificate pinning</a> to prevent reverse-engineering. 
-
-A famous example is the **AppStore** : if you try to open the app while using **mitmproxy**, all requests will be rejected and you won't see any traffic.
-
-Now imagine that you need to test deferred deep linking for an iOS app : you open a deeplink, reach the store, download the app and open it. 
-
-Without the `--ignore-hosts` parameter, requests from the **Appstore** app would be blocked. To ignore requests from the store and see others you must use : 
-```bash
-mitmproxy --ignore-hosts '(apple\.com|mzstatic\.com):443'
-```
-
-Another convenient use case if when you want to totally bypass **mitmproxy** without modifying the proxy settings on the device. In this case, use `':'` to ignore all domains : 
-```bash
-mitmproxy --ignore-hosts ':'
-```
-
-### Export requests
-
-To reproduce a bug, it is generally useful to export requests to share them with API devs for example. **mitmproxy** allows you to export requests using the **e** key.
-
-After selecting the export format (**cURL**, **httpie** or **raw**), you need to enter the export path. If you directly installed the software on you computer, just use any local path.
-
-If you use **mitmproxy** through **Docker**, then you must use a shared folder. For example, the one you use for certificates : 
-
-```bash
-: export.file curl @focus /home/mitmproxy/.mitmproxy/request.curl
-```
+- [Basic tips to get started with mitmproxy]({% post_url 2020-04-22-mitmproxy-tips %})
+- _Creating scripts for mitmproxy (coming soon)_
