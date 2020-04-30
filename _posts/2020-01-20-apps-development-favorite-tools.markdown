@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Favorite tools for organization and apps development"
+title:  "Amazing tools for organization and apps development"
 date:   2020-01-20 20:20:20 +0200
 categories: work
 ---
