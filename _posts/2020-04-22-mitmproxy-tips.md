@@ -8,18 +8,18 @@ excerpt_separator: <!--more-->
 published: true
 ---
 
-In [my previous post]({% post_url mitmproxy/2020-04-10-mitmproxy %}), I focused on steps to install **mitmproxy** and set up your target device to start inspecting requests. Now that you are all set, here are a few tips to help you getting quickly confortable with this tool.
+In [my previous post]({% post_url mitmproxy/2020-04-10-mitmproxy %}), I focused on steps to install **mitmproxy** and set up your target device. Now that you are all set, here are a few tips to help you getting quickly confortable with this tool.
 
 <!--more-->
 
 ## The table and details views
 
-The app starts on the "table view", that's where the requests appear. To navigate among requests, you can use the **up** and **down** keys. Select a line and hit **enter** to see details from any request.
+mitmproxy starts on the "table view", that's where the requests appear. To navigate among requests, you can use the **up** and **down** keys. Select a line and hit **enter** to see details from any request.
 
-When using an app, this view can quickly become really crowded. In this case, you can use the following commands to reduce the number of displayed requests  : 
+When using an app, this view can quickly become crowded. In this case, you can use the following commands to reduce the number of displayed requests  : 
 
 - use **d** to remove a single request
-- use **z** to remove all requests
+- use **z** to clear the list
 
 ![Table view](/assets/images/mitmproxy/table-view.jpg)
 
@@ -44,7 +44,7 @@ With the several following keys, you should be able to navigate among views and 
 
 ## Filter requests
 
-You will quickly notice that your phone or tablet constatly sends and receives a lot of data even when you are not actively using it. That is why filtering is necessary when you want to follow requests done for a specific purpose.
+You will quickly notice that your phone or tablet constantly sends and receives a lot of data even when you are not actively using it. That is why filtering is necessary when you want to follow requests done for a specific purpose.
 
 **mitmproxy** allows you to filter requests <a href="https://docs.mitmproxy.org/stable/concepts-filters/" target="_blank">using regexes</a>. To change the filter, simply hit **f** when you are on the table view.
 
@@ -59,6 +59,18 @@ To display **404 errors from google.com** you must use :
 ```bash
 set view_filter=google\.com ~c 404
 ```
+
+## Intercept requests
+
+The same regexes can also be used as "intercept filters" : this feature allows you to put on hold some requests.
+
+Imagine your app crashes when arriving on a specific screen. You notice that 3 different endpoints are called to load this screen's content and suspect one of the responses to make your app crash.
+
+With the intercept filter you can block the 3 requests and then authorize each one of them individualy : this way you can see which one makes you app crash.
+
+- use the **i** key to set an "intercept filter"
+- when a request is intercepted, select it and press **a** to let it go
+- when the response arrives, it will also be on hold : press **a** to let it pass
 
 ## Ignore domains
 
@@ -80,7 +92,7 @@ mitmproxy --ignore-hosts ':'
 
 ## Export requests
 
-To reproduce a bug, it is generally useful to export requests to share them with API devs for example. **mitmproxy** allows you to export requests using the **e** key.
+To reproduce a bug, it is generally useful to export requests to share them with another team for example. **mitmproxy** allows you to export requests using the **e** key.
 
 After selecting the export format (**cURL**, **httpie** or **raw**), you need to enter the export path. If you directly installed the software on you computer, just use any local path.
 
