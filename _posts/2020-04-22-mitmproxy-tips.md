@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Basic tips to get started with mitmproxy"
+title:  "Tips to get started with mitmproxy"
 date:   2020-04-22 20:20:20 +0200
 categories: mitmproxy
 tags: [mitmproxy]
