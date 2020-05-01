@@ -2,6 +2,7 @@
 layout: post
 title:  "Amazing tools for organization and apps development"
 date:   2020-01-20 20:20:20 +0200
+excerpt: "Using the right tool for the right purpose is crucial. Here are several apps I use in my everyday work life, I hope some of them can help you too."
 categories: work
 ---
 Using the right tool for the right purpose is crucial. Sometimes we tend to forget it, especially when we are too busy shipping new features to spend time on the web looking for new softwares.
