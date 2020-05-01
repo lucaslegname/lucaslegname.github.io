@@ -4,15 +4,13 @@ title:  "How to inspect network traffic using mitmproxy"
 date:   2020-04-10 20:20:20 +0200
 categories: mitmproxy
 tags: [mitmproxy]
-excerpt_separator: <!--more-->
+excerpt: "A quick introduction to install mitmproxy and set up the device you would like to inspect. By the end of this tutorial you should be able to see HTTPS requests from any iOS, Android or tvOS device."
 published: true
 ---
 
 Most of modern apps rely on APIs. « _- How can I access to your catalog ? - Here’s an API for that._ » APIs are everywhere and that’s not about to change.
 
 Breaking down each part of your code into separate services is _(often)_ good but when it comes to testing, this separation might make things a bit harder.
-
-<!--more-->
 
 Front-end apps developers do not write anymore the code that takes care of the core business logic. Generally, complex data-processing tasks are done on API-side and front-end apps just have to display what is provided by the API.
 

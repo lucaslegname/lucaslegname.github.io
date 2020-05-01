@@ -4,13 +4,11 @@ title:  "Tips to get started with mitmproxy"
 date:   2020-04-22 20:20:20 +0200
 categories: mitmproxy
 tags: [mitmproxy]
-excerpt_separator: <!--more-->
+excerpt: "In my previous post, I focused on steps to install mitmproxy and set up your target device. Now that you are all set, here are a few tips to help you getting quickly confortable with this tool."
 published: true
 ---
 
 In [my previous post]({% post_url mitmproxy/2020-04-10-mitmproxy %}), I focused on steps to install **mitmproxy** and set up your target device. Now that you are all set, here are a few tips to help you getting quickly confortable with this tool.
-
-<!--more-->
 
 ## The table and details views
 

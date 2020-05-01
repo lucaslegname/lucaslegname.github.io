@@ -2,6 +2,7 @@
 layout: post
 title:  "Everything starts here"
 date:   2020-01-1O 20:20:20 +0200
+excerpt: "We all have to start somewhere, right ? So this is where Bad Gateway starts. No technical stuff here but just a simple (and basic) introduction."
 categories: thoughts
 ---
 We all have to start somewhere, right ? So this is where _Bad Gateway_ starts. First, let me re-introduce myself : my name is Lucas and I’m a software engineer specialized in mobile apps development.
