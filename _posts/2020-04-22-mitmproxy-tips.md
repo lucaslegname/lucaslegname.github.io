@@ -105,4 +105,4 @@ If you use **mitmproxy** through **Docker**, then you must use a shared folder. 
 With the few tips from this post, you should already be able to do a lot of things. If you want to go further, you can have a look at <a href="https://docs.mitmproxy.org/stable/" target="_blank">mitmproxy's documentation</a> and at the following posts : 
 
 - [How to inspect network traffic using mitmproxy]({% post_url mitmproxy/2020-04-10-mitmproxy %})
-- _Creating scripts for mitmproxy (coming soon)_
+- [Creating scripts for mitmproxy]({% post_url 2020-05-08-mitmproxy-scripts %})
