@@ -139,5 +139,5 @@ If nothing appears and the target device seems to have no internet connection, h
 
 Now you should know everything you need to install **mitmproxy** and configure your target device. If you want to go further, have a look at the following posts : 
 
-- [Tips to get started with mitmproxy]({% post_url 2020-04-22-mitmproxy-tips %})
-- _Creating scripts for mitmproxy (coming soon)_
+- [Useful tips for mitmproxy]({% post_url 2020-04-22-mitmproxy-tips %})
+- [Creating scripts for mitmproxy]({% post_url 2020-11-04-mitmproxy-scripts %})
