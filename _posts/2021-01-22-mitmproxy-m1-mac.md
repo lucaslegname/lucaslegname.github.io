@@ -10,7 +10,7 @@ published: true
 
 The new M1-powered Macs are available since a few months now and even though most apps are already compatible with the ARM chip (natively or through **Rosetta 2**), there is still one big missing : **Docker**.
 
-To be accurate, Docker is currently available on M1 Macs but only as a **Tech Preview**. If you are looking for something stable, you should better wait a bit but if you don't mind wasting some time on weird issues and want to experience Docker on ARM before everyone else then this build is for you.
+To be accurate, Docker is currently available on M1 Macs but only as a **Tech Preview**. If you are looking for something stable, you should better wait a bit but if you don't mind wasting some time on weird bugs and want to experience Docker on ARM before everyone else then this build is for you.
 
 In a previous post, I suggested using **mitmproxy** through **Docker** to keep you computer clean and ease versions switching. So as I freshly received my M1-powered Macbook Air, I wanted to do the same thing with my new computer.
 
@@ -32,9 +32,7 @@ And... it mostly worked ! I was able to use the official **mitmproxy** image tha
 WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
 ```
 
-This message appears because mitmproxy does not offer multi platform images for the moment.
-
-If you check the tags from mitmproxy's <a href="https://hub.docker.com/r/mitmproxy/mitmproxy/tags" target="_blank">DockerHub page</a>, you will notice that there is only one architecture (`linux/amd64`) per tag.
+This message appears because mitmproxy does not offer multi platform images for the moment. If you check the tags from mitmproxy's <a href="https://hub.docker.com/r/mitmproxy/mitmproxy/tags" target="_blank">DockerHub page</a>, you will notice that there is only one architecture (`linux/amd64`) per tag.
 
 So if we want to avoid the previous warning message and to enjoy better performance, we need to build a multi platform **Docker** image.
 
@@ -46,7 +44,7 @@ As the **mitmproxy** project source code is <a href="https://github.com/mitmprox
 
 After a few researches, I found out I would need to use Docker **Buildx** to create a multi platform image. Buildx is an experimental feature so if you intend to use it, make sure experimental features are enabled in your Docker settings.
 
-The good news is that the rest is straightforward, once you located the **Dockerfile** from the project, execute the following command :
+The good news is that the rest is straightforward, open your terminal, change directory to the root `mitmproxy` folder you just checked out and execute the following command :
 
 ```bash
 docker buildx build --push -t lucaslegname/mitmproxy:6.0.2 --platform linux/amd64,linux/arm64 --file release/docker/Dockerfile .
@@ -64,7 +62,7 @@ Now you can run **mitmproxy** through **Docker** with an optimised image and you
 
 ### Sidenote
 
-By default, M1-Macs build `linux/arm64` images so you can also use **Buildx** in case you need to share **Docker** images with people ~~still~~ using Intel-powered computers.
+By default, M1 Macs build `linux/arm64` images so you can also use **Buildx** in case you need to share **Docker** images with people ~~still~~ using Intel-powered computers.
 
 ## References
 
