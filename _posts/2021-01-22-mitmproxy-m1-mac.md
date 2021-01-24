@@ -68,11 +68,13 @@ docker run --rm -it -p 8080:8080 lucaslegname/mitmproxy:6.0.2
 
 That's it ! You can now run **mitmproxy** through **Docker** with an optimised image and you even know how to create multi platform images using **Buildx**. Enjoy !
 
+![mitmproxy is alive](/assets/images/mitmproxy/mitmproxy-empty.jpg)
+
 ### Sidenotes
 
 - by default, M1 Macs build `linux/arm64` images so you can also use **Buildx** in case you need to share **Docker** images with people ~~still~~ using Intel-powered computers
 
-- **Buildx** can also be very handy to build Raspberry-Pi-compatible images from an Intel-powered computer
+- **Buildx** can also be very handy to build **Raspberry-Pi-compatible images** from an Intel-powered computer
 
 ## References
 
